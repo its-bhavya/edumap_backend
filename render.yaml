@@ -7,4 +7,4 @@ services:
     startCommand: "uvicorn app.agents.extractor_agent:app --host 0.0.0.0 --port 10000"
     envVars:
       - key: GOOGLE_API_KEY
-        value: AIzaSyAKHO7IsHMujiDFMBc-CqGFunv1t6egOHg
+        sync: false
